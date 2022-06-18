@@ -5,10 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Database\Configurations\" />
     <Folder Include="Database\Migrations\" />
     <Folder Include="Database\Repositories\" />
-    <Folder Include="Entities\" />
   </ItemGroup>
 
   <ItemGroup>
