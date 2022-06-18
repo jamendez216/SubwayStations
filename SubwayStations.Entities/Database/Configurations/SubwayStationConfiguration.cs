@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using SubwayStations.Entities.Entities;
+using SubwayStations.Models.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;

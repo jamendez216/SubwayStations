@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubwayStations.API", "Subwa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubwayStations.Tests", "SubwayStations.Tests\SubwayStations.Tests.csproj", "{17CF11E0-BFB1-4A0E-A997-6B0C2435060A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubwayStations.Entities", "SubwayStations.Entities\SubwayStations.Entities.csproj", "{156CB759-AD8A-4960-AB6C-326742EC9735}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubwayStations.Data", "SubwayStations.Entities\SubwayStations.Data.csproj", "{156CB759-AD8A-4960-AB6C-326742EC9735}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubwayStations.BusinessLogic", "SubwayStations.BusinessLogic\SubwayStations.BusinessLogic.csproj", "{7204235C-5281-488F-8153-2EA7BE354507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubwayStations.Models", "SubwayStations.Models\SubwayStations.Models.csproj", "{41D9D955-3007-48B6-99C0-CE3A0D625C1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7204235C-5281-488F-8153-2EA7BE354507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7204235C-5281-488F-8153-2EA7BE354507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7204235C-5281-488F-8153-2EA7BE354507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D9D955-3007-48B6-99C0-CE3A0D625C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D9D955-3007-48B6-99C0-CE3A0D625C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D9D955-3007-48B6-99C0-CE3A0D625C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D9D955-3007-48B6-99C0-CE3A0D625C1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

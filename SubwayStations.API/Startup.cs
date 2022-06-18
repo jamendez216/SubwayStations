@@ -26,6 +26,10 @@ namespace SubwayStations.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSwaggerDocument();
+            services.AddOpenApiDocument(configure =>
+                    configure.Title = "NYC Subway Stations API"        
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +45,10 @@ namespace SubwayStations.API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseOpenApi();
+
+            app.UseSwaggerUi3( set => set.Path = "/api" );
 
             app.UseEndpoints(endpoints =>
             {

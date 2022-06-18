@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SubwayStations.Entities.Entities
+namespace SubwayStations.Models.Models
 {
     public class SubwayStation
     {
