@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Database\Configurations\" />
+    <Folder Include="Database\Migrations\" />
+    <Folder Include="Database\Repositories\" />
+    <Folder Include="Entities\" />
+  </ItemGroup>
+
+</Project>
